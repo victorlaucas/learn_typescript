@@ -3,6 +3,6 @@
     "sourceMap": true
   },
   "files": [
-    "025_interface_classes.ts"
+    "026_namespaces.ts"
   ]
 }
