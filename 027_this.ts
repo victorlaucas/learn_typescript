@@ -15,6 +15,7 @@ class Invoice {
   //   }, time);
   // }
 
+// By using a fat arrow instead of 'function' you have access to this at it's properly scoped. 
   printLater(time: number) {
     setTimeout(() => {
       console.log(this.total)

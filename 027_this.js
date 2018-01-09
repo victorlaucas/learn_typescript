@@ -10,6 +10,7 @@ var Invoice = /** @class */ (function () {
     //     console.log(this.total)
     //   }, time);
     // }
+    // By using a fat arrow instead of 'function' you have access to this at it's properly scoped. 
     Invoice.prototype.printLater = function (time) {
         var _this = this;
         setTimeout(function () {
